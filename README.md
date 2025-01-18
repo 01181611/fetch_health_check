@@ -29,10 +29,10 @@ This program monitors the health of HTTP endpoints and logs availability percent
 6. Run the script with the path to the configuration file as an argument:
    python health_check.py config.yaml
 ## Monitor the Output
-7.The program logs cumulative availability percentages for each domain every 15 seconds. Example:
-  fetch.com has 33% availability percentage
-  www.fetchrewards.com has 100% availability percentage
-  fetch.com has 67% availability percentage
-  www.fetchrewards.com has 50% availability percentage
+7. The program logs cumulative availability percentages for each domain every 15 seconds. 
+    Example:fetch.com has 33% availability percentage
+            www.fetchrewards.com has 100% availability percentage
+            fetch.com has 67% availability percentage
+            www.fetchrewards.com has 50% availability percentage
 ## Stop the program
    CTRL+C
